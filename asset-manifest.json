@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/eleqtrasoft/static/css/main.8694e0ee.chunk.css",
+    "main.css": "/eleqtrasoft/static/css/main.ccf39903.chunk.css",
     "main.js": "/eleqtrasoft/static/js/main.80a30884.chunk.js",
     "main.js.map": "/eleqtrasoft/static/js/main.80a30884.chunk.js.map",
     "runtime-main.js": "/eleqtrasoft/static/js/runtime-main.60db0425.js",
@@ -8,16 +8,16 @@
     "static/js/2.ea02962d.chunk.js": "/eleqtrasoft/static/js/2.ea02962d.chunk.js",
     "static/js/2.ea02962d.chunk.js.map": "/eleqtrasoft/static/js/2.ea02962d.chunk.js.map",
     "index.html": "/eleqtrasoft/index.html",
-    "precache-manifest.d13f2e60136af323e683f3e8a2951ea6.js": "/eleqtrasoft/precache-manifest.d13f2e60136af323e683f3e8a2951ea6.js",
+    "precache-manifest.7b906d0138c1acb4988791012a983952.js": "/eleqtrasoft/precache-manifest.7b906d0138c1acb4988791012a983952.js",
     "service-worker.js": "/eleqtrasoft/service-worker.js",
-    "static/css/main.8694e0ee.chunk.css.map": "/eleqtrasoft/static/css/main.8694e0ee.chunk.css.map",
+    "static/css/main.ccf39903.chunk.css.map": "/eleqtrasoft/static/css/main.ccf39903.chunk.css.map",
     "static/js/2.ea02962d.chunk.js.LICENSE.txt": "/eleqtrasoft/static/js/2.ea02962d.chunk.js.LICENSE.txt",
     "static/media/App.scss": "/eleqtrasoft/static/media/SpaceGrotesk-SemiBold.7b228459.woff"
   },
   "entrypoints": [
     "static/js/runtime-main.60db0425.js",
     "static/js/2.ea02962d.chunk.js",
-    "static/css/main.8694e0ee.chunk.css",
+    "static/css/main.ccf39903.chunk.css",
     "static/js/main.80a30884.chunk.js"
   ]
 }
