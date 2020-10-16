@@ -1,0 +1,58 @@
+.sidebar {
+  width: max-content;
+  height: calc(100vh - 6rem);
+  padding: 2rem 0 3rem 4rem;
+  position: sticky;
+  top: 7.75rem;
+  left: 0;
+  transition: all 0.5s ease-in-out;
+  background-color: $white;
+  &.scrolledSidebar {
+    top: 5.75rem;
+  }
+  .separator {
+    height: 100%;
+    width: 2px;
+    background-color: $gray-3;
+    margin-left: 3rem;
+  }
+  nav.sideNav {
+    margin-top: 2rem;
+    .sideNav__section {
+      .sideNav__section__title {
+        font-size: 1.25rem;
+        font-weight: 600;
+      }
+      .sideNavLinks {
+        margin-top: 1rem;
+        .sideNavLink {
+          height: 2rem;
+          color: $gray-5;
+          transition: all 0.25s ease-in-out;
+          white-space: nowrap;
+
+          &:hover {
+            color: $dark;
+          }
+          &:active {
+            color: $dark;
+          }
+        }
+      }
+    }
+    .sideNav__section:nth-child(2) {
+      margin-top: 2rem;
+      .sideNavLinks {
+        .sideNavLink {
+          margin-right: 1rem;
+          &:last-child {
+            margin-right: 0;
+          }
+        }
+      }
+    }
+    .sideNav__section:nth-child(3) {
+      margin-top: 2rem;
+    }
+  }
+}

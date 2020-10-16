@@ -1,0 +1,37 @@
+@font-face {
+  font-family: "GilroyBold";
+  src: url("./Assets/Fonts/Gilroy/Gilroy-ExtraBold.otf");
+}
+@font-face {
+  font-family: "Space Grotesk";
+  src: url("./Assets/Fonts/SpaceGrotesk/SpaceGrotesk-Light.woff");
+  src: url("./Assets/Fonts/SpaceGrotesk/SpaceGrotesk-Light.woff2");
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Space Grotesk";
+  src: url("./Assets/Fonts/SpaceGrotesk/SpaceGrotesk-Regular.woff");
+  src: url("./Assets/Fonts/SpaceGrotesk/SpaceGrotesk-Regular.woff2");
+}
+@font-face {
+  font-family: "Space Grotesk";
+  src: url("./Assets/Fonts/SpaceGrotesk/SpaceGrotesk-Medium.woff");
+  src: url("./Assets/Fonts/SpaceGrotesk/SpaceGrotesk-Medium.woff2");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Space Grotesk";
+  src: url("./Assets/Fonts/SpaceGrotesk/SpaceGrotesk-SemiBold.woff");
+  src: url("./Assets/Fonts/SpaceGrotesk/SpaceGrotesk-SemiBold.woff2");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Space Grotesk";
+  src: url("./Assets/Fonts/SpaceGrotesk/SpaceGrotesk-Bold.woff");
+  src: url("./Assets/Fonts/SpaceGrotesk/SpaceGrotesk-Bold.woff2");
+  font-weight: 700;
+}
+@import "./Assets/Library/variables.scss";
+@import "./Assets/Library/framework.scss";
+@import "./Pages/Pages.scss";
+@import "./Components/Components.scss";

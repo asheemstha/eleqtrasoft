@@ -1,0 +1,91 @@
+header.mainHeader {
+  padding: 4rem 4rem 1rem 4rem;
+  background-color: $white;
+  position: sticky;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 999999;
+  transition: all 0.5s ease-in-out;
+  &.scrolledHeader {
+    padding: 2rem 4rem 1rem 4rem;
+  }
+  .headerContent {
+    height: max-content;
+    .headerContent__left {
+      .hcl__brandPageIndicator {
+        .brandLink {
+          .brandName {
+            font-family: "GilroyBold";
+            font-size: 1.5rem;
+            color: $primary;
+          }
+        }
+        .pageIndicator {
+          margin-left: 0.5rem;
+          .pageName {
+            font-size: 1.25rem;
+          }
+        }
+      }
+      nav.hcl__nav {
+        margin-left: 4rem;
+        .hcl__nav__navLinks {
+          margin: 0 0.75rem;
+          color: $gray-5;
+          transition: color 0.25s ease-in-out;
+          &:first-child {
+            margin-left: 0;
+          }
+          &:last-child {
+            margin-right: 0;
+          }
+          &:hover {
+            color: $dark;
+          }
+          &.active {
+            color: $dark;
+          }
+        }
+      }
+    }
+    .headerContent__right {
+      .hcr__searchBar {
+        height: max-content;
+        width: max-content;
+        position: relative;
+        input.hcr__searchInput {
+          border: none;
+          background-color: $gray-2;
+          height: 2.75rem;
+          width: 20rem;
+          padding: 0 2.75rem 0 1.5rem;
+          border-radius: 9px;
+        }
+        .searchIconCont {
+          position: absolute;
+          right: 0;
+          top: 0;
+          height: 2.75rem;
+          width: 2.75rem;
+          .searchIcon {
+            font-size: 1.15rem;
+            color: $gray-5;
+          }
+        }
+      }
+      .hcr__accountSession {
+        margin-left: 2.75rem;
+        .loginLink {
+          margin-right: 1.5rem;
+          color: $l-dark;
+          font-weight: 500;
+        }
+        .signupLink {
+          color: $primary;
+          font-weight: 500;
+        }
+      }
+    }
+  }
+}
