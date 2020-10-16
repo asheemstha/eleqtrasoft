@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "44a399ab1ec2533827406a91f0d21782",
+    "revision": "9a688528ae649ede8c331668b0782f15",
     "url": "/eleqtrasoft/index.html"
   },
   {
-    "revision": "1741e53f33072d82c3ab",
+    "revision": "81550513d35b72d9d993",
     "url": "/eleqtrasoft/static/css/main.8694e0ee.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/eleqtrasoft/static/js/2.ea02962d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1741e53f33072d82c3ab",
-    "url": "/eleqtrasoft/static/js/main.f97f04fb.chunk.js"
+    "revision": "81550513d35b72d9d993",
+    "url": "/eleqtrasoft/static/js/main.80a30884.chunk.js"
   },
   {
     "revision": "4a5c01070396db64f58f",
