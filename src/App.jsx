@@ -4,7 +4,7 @@ import './App.scss';
 import CoursesPage from './Pages/Courses/Courses';
 const App = () => {
     return (
-        <Router>
+        <Router basename="/eleqtrasoft">
             <div className="app">
                <Switch>
                    <Route path="/" exact component={CoursesPage}/>
