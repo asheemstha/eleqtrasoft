@@ -1,3 +1,9 @@
 .coursesPage {
   height: 200vh;
+  background: rgb(0, 120, 113);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 120, 113, 1) 0%,
+    rgba(0, 212, 255, 1) 100%
+  );
 }
